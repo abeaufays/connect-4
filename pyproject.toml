@@ -1,0 +1,7 @@
+[project]
+name = "connect-4"
+version = "0.1.0"
+description = "Toy project to play connect 4 in Python"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
