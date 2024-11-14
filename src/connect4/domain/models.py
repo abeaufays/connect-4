@@ -1,4 +1,4 @@
-EMPTY = " "
+EMPTY = ""
 
 
 class Board:
