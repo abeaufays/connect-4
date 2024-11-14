@@ -10,6 +10,14 @@ class TestBoard:
 
         assert board[1, 0] == "X"
         assert board[0, 0] == models.EMPTY
+        assert (
+            sum(
+                board[column, row] != models.EMPTY
+                for row in range(board.height)
+                for column in range(board.width)
+            )
+            == 1
+        )
 
     def test_play_illegal_moves(self):
         board = models.Board(width=7, height=5)
